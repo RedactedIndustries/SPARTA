@@ -47,7 +47,7 @@ SPARTA is built and maintained by the community. Contributions are welcomed and 
 - Expansion to new materials, manufacturing methods, or component types
 - Continuous improvement and refinement of the standard
 
-To contribute, please follow the **Submission Guidelines** below and use the standard repository organization and file naming conventions defined in the [SPARTA Charter](#) (link to be added when published).
+To contribute, please follow the **Submission Guidelines** below and use the standard repository organization and file naming conventions defined in the [SPARTA Charter](https://github.com/RedactedIndustries/SPARTA/blob/main/SPARTA_STANDARD/SPARTA%20-%20Standardized%20Printed%20Arms%20Resilience%20Testing%20and%20Assessment.pdf) (link to be added when published).
 
 ---
 
