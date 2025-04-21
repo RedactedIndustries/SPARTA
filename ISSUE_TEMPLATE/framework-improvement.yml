@@ -1,0 +1,42 @@
+name: "Propose Framework Improvements"
+description: "Suggest improvements, refinements, or expansions to the SPARTA framework."
+title: "[Proposal] Short Title"
+labels: ["framework proposal", "discussion"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Describe the Proposed Improvement"
+      description: "Explain the idea, why it's needed, and how it benefits the SPARTA framework."
+      placeholder: "Example: Introduce vibration resistance testing to simulate long-term cycling stresses."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area_of_impact
+    attributes:
+      label: "Area of Impact"
+      description: "Which part of the framework would this improvement affect?"
+      options:
+        - "Testing Methodology"
+        - "Reporting Structure"
+        - "Material/Part Expansion"
+        - "Organizational Structure"
+        - "Other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: resources
+    attributes:
+      label: "Relevant Resources or References"
+      description: "List any standards, papers, research, or examples that support the proposal (if any)."
+      placeholder: "Example: ASTM D3479 fatigue testing reference."
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: "Confirmation"
+      options:
+        - label: "I have reviewed the SPARTA Charter and believe this proposal aligns with the project's core principles."
+          required: true

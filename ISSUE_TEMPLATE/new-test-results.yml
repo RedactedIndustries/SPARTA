@@ -1,0 +1,57 @@
+name: "Submit New Test Results"
+description: "Upload and describe completed SPARTA test results for inclusion into the repository."
+title: "[New Test Results] Part - Material Brand Model"
+labels: ["test results", "submission"]
+body:
+  - type: input
+    id: part_tested
+    attributes:
+      label: "Part Tested"
+      description: "Specify the firearm part tested (e.g., Glock 19 Frame, AR15 Lower, UMP 9 Lower)."
+      placeholder: "Example: Glock 19 Frame"
+    validations:
+      required: true
+
+  - type: input
+    id: material_used
+    attributes:
+      label: "Material Used"
+      description: "Specify the filament material and brand (e.g., Polymaker PA12-CF, Qidi PAHT-CF)."
+      placeholder: "Example: Polymaker PA12-CF"
+    validations:
+      required: true
+
+  - type: input
+    id: printer_details
+    attributes:
+      label: "Printer Details"
+      description: "Specify the printer model and settings used (brief)."
+      placeholder: "Example: Prusa MK3S+, 0.4mm nozzle, 0.2mm layer height, 99% gyroid infill"
+    validations:
+      required: true
+
+  - type: textarea
+    id: test_summary
+    attributes:
+      label: "Test Summary"
+      description: "Provide a brief summary of the testing performed (which SPARTA tests completed, highlights, failures)."
+      placeholder: "Dimensional, mechanical, drop, environmental, and live-fire testing completed. Observed slight magwell flex post-firing."
+    validations:
+      required: true
+
+  - type: textarea
+    id: supporting_media
+    attributes:
+      label: "Supporting Media"
+      description: "List links to images, videos, charts, or attach them directly in the PR."
+      placeholder: "Example: 3 photos attached showing post-firing condition."
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: "Confirmation"
+      options:
+        - label: "I confirm that the testing methodology followed the SPARTA Charter."
+          required: true
+        - label: "I confirm that all files are named and structured properly."
+          required: true
