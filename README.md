@@ -75,8 +75,8 @@ To contribute, please follow the **Submission Guidelines** below and use the sta
     /MatterHackers_NylonX
       /AR15_Lower
         /Test-Results
-          - AR15Lower_MatterHackers_NylonX_DimensionalAnalysis.md
-          - AR15Lower_MatterHackers_NylonX_LiveFire.pdf
+          - AR15Lower_MatterHackers_NylonX_DimensionalAnalysis-AUTHOR_NAME.md
+          - AR15Lower_MatterHackers_NylonX_LiveFire-AUTHOR_NAME.pdf
           - photos/
           - videos/
 ```
