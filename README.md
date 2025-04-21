@@ -88,7 +88,7 @@ All submissions must follow standard file and folder naming conventions as defin
 
 ## How to Contribute
 
-1. Follow all SPARTA testing methodologies as described in the [SPARTA Charter](#).
+1. Follow all SPARTA testing methodologies as described in the [SPARTA Charter](https://github.com/RedactedIndustries/SPARTA/blob/main/SPARTA_STANDARD/SPARTA%20-%20Standardized%20Printed%20Arms%20Resilience%20Testing%20and%20Assessment.pdf).
 2. Document your setup, equipment, material details, procedures, and results clearly.
 3. Submit your structured results via Pull Request to the appropriate material/part folder.
 4. **For major changes or new proposals, please open an Issue first before submitting a Pull Request.**
