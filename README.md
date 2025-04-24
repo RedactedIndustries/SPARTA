@@ -105,7 +105,7 @@ We welcome contributions from independent testers, development groups, material 
 SPARTA is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
 © Redacted Industries LLC  
-[Redacted Induustries](https://redactedinnovation.com)
+[Redacted Industries](https://redactedinnovation.com)
 
 Contact: administrator@redactedinnovation.com
 
