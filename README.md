@@ -106,6 +106,7 @@ SPARTA is licensed under the [Creative Commons Attribution-ShareAlike 4.0 Intern
 
 © Redacted Industries LLC  
 [Redacted Induustries](https://redactedinnovation.com)
+
 Contact: administrator@redactedinnovation.com
 
 ---
